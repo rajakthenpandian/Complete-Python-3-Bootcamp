@@ -1,5 +1,5 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: [ 'build', '-t', 'us-central1-docker.pkg.dev/$PROJECT_ID/adhp/quickstart-image:tag1', '.' ]
+  args: [ 'build', '-t', 'gcr.io/rajakthenpandian/Complete-Python-3-Bootcamp', '.' ]
 images:
-- 'us-central1-docker.pkg.dev/$PROJECT_ID/adhp/quickstart-image:tag1'
+- 'gcr.io/rajakthenpandian/Complete-Python-3-Bootcamp'
