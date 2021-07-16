@@ -1,5 +1,3 @@
 steps:
-- name: 'gcr.io/cloud-builders/docker'
-  args: [ 'build', '-t', 'gcr.io/rajakthenpandian/Complete-Python-3-Bootcamp', '.' ]
-images:
-- 'gcr.io/rajakthenpandian/Complete-Python-3-Bootcamp'
+- name: 'bash'
+  args: ['echo', 'I am running a bash command']
